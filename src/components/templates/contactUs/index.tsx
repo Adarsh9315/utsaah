@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import bradcam from "../../../img/banner/bradcam.png";
+import bradcam from "../../../../public/img/banner/bradcam.png";
 
 const ContactusTemplate = () => {
   const [messagePlaceholder, setMessagePlaceholder] = useState('Enter Message');

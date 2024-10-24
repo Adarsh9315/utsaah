@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from "react";
-import logo from "../../img/logo2.png";
+import logo from "../../../public/img/logo2.png";
 import Image from "next/image";
 import Link from "next/link";
 const Header = () => {

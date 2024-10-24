@@ -1,9 +1,9 @@
-import cause1 from "../../../img/causes/1.png";
-import cause2 from "../../../img/causes/2.png";
-import cause3 from "../../../img/causes/3.png";
+import cause1 from "../../../../public/img/causes/1.png";
+import cause2 from "../../../../public/img/causes/2.png";
+import cause3 from "../../../../public/img/causes/3.png";
 
-import news1 from "../../../img/news/1.png";
-import news2 from "../../../img/news/2.png";
+import news1 from "../../../../public/img/news/1.png";
+import news2 from "../../../../public/img/news/2.png";
 import Image from "next/image";
 
 

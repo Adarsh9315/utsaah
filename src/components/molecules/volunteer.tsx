@@ -1,12 +1,12 @@
 import React from "react";
-import volunteer1 from "../../img/volenteer/Vimalpic.jpg";
-import volunteer2 from "../../img/volenteer/Chaulapic.jpg";
-import volunteer3 from "../../img/volenteer/maasi.png";
-import volunteer4 from "../../img/volenteer/Sanjeevpic.jpg";
-import volunteer5 from "../../img/volenteer/Abhirampic.jpg";
-import volunteer6 from "../../img/volenteer/Ratanpic.jpg";
-import volunteer7 from "../../img/volenteer/kulukumar.jpg";
-import volunteer8 from "../../img/volenteer/kulukumar1.jpg";
+import volunteer1 from "../../../public/img/volenteer/Vimalpic.jpg";
+import volunteer2 from "../../../public/img/volenteer/Chaulapic.jpg";
+import volunteer3 from "../../../public/img/volenteer/maasi.png";
+import volunteer4 from "../../../public/img/volenteer/Sanjeevpic.jpg";
+import volunteer5 from "../../../public/img/volenteer/Abhirampic.jpg";
+import volunteer6 from "../../../public/img/volenteer/Ratanpic.jpg";
+import volunteer7 from "../../../public/img/volenteer/kulukumar.jpg";
+import volunteer8 from "../../../public/img/volenteer/kulukumar1.jpg";
 import Image from "next/image";
 
 const Volunteer = () => {
