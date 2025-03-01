@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React, { useEffect, useState } from "react";
-import logo from "../../../public/img/logo2.png";
+import logo from "../../img/logo2.png";
 import Image from "next/image";
 import Link from "next/link";
 const Header = () => {
@@ -16,9 +16,9 @@ const Header = () => {
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
   return (
@@ -65,7 +65,10 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div id="sticky-header" className={`main-header-area ${isSticky ? 'sticky' : ''}`}>
+        <div
+          id="sticky-header"
+          className={`main-header-area ${isSticky ? "sticky" : ""}`}
+        >
           <div className="container-fluid">
             <div className="row align-items-center">
               <div className="col-xl-3 col-lg-3">
@@ -87,6 +90,9 @@ const Header = () => {
                       </li>
                       <li>
                         <Link href="/causes">Causes</Link>
+                      </li>
+                      <li>
+                        <Link href="/resource">Resources</Link>
                       </li>
                       {/* <li>
                         <a href="#">

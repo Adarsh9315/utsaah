@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import causes1 from "../../../../public/img/causes/1.png";
-import causes2 from "../../../../public/img/causes/2.png";
-import causes3 from "../../../../public/img/causes/3.png";
-import causes4 from "../../../../public/img/causes/4.png";
-import causes5 from "../../../../public/img/causes/5.png";
-import causes6 from "../../../../public/img/causes/6.png";
-import bradcam from "../../../../public/img/banner/bradcam.png";
+import causes1 from "../../../img/causes/1.png";
+import causes2 from "../../../img/causes/2.png";
+import causes3 from "../../../img/causes/3.png";
+import causes4 from "../../../img/causes/4.png";
+import causes5 from "../../../img/causes/5.png";
+import causes6 from "../../../img/causes/6.png";
+import bradcam from "../../../img/banner/bradcam.png";
 
 const CauseTemplate = () => {
   return (

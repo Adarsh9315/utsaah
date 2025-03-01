@@ -1,5 +1,5 @@
 import React from "react";
-import bradcam from "../../../../public/img/banner/bradcam.png";
+import bradcam from "../../../img/banner/bradcam.png";
 import SimpleElementButtons from "@/components/molecules/simpleElementButtons";
 import ElementBlog from "@/components/molecules/elementBlog";
 const ElementsTemplate = () => {

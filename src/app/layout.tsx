@@ -14,6 +14,7 @@ import "../app/css/gijgo.css";
 import "../app/css/animate.css";
 import "../app/css/slicknav.css";
 import "../app/css/embla.css"
+import LoadRazorpayScript from "../components/molecules/loadRazorpayScript";
 
 export const metadata: Metadata = {
   title: "Charifit",
@@ -29,6 +30,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
+        <LoadRazorpayScript />
         {children}
         <Footer />
       </body>

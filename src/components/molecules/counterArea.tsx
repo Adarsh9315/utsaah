@@ -1,5 +1,5 @@
 import React from "react";
-import counterBg from "../../../public/img/banner/counter_bg.png";
+import counterBg from "../../img/banner/counter_bg.png";
 const CounterArea = () => {
   return (
     <div className="counter_area">

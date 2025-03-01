@@ -1,20 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import single_blog_1 from "../../../public/img/blog/single_blog_1.png";
-import single_blog_2 from "../../../public/img/blog/single_blog_2.png";
-import single_blog_3 from "../../../public/img/blog/single_blog_3.png";
-import single_blog_4 from "../../../public/img/blog/single_blog_4.png";
-import single_blog_5 from "../../../public/img/blog/single_blog_5.png";
-import post1 from "../../../public/img/post/post_1.png";
-import post2 from "../../../public/img/post/post_2.png";
-import post3 from "../../../public/img/post/post_3.png";
-import post4 from "../../../public/img/post/post_4.png";
-import post5 from "../../../public/img/post/post_5.png";
-import post6 from "../../../public/img/post/post_6.png";
-import post7 from "../../../public/img/post/post_7.png";
-import post8 from "../../../public/img/post/post_8.png";
-import post9 from "../../../public/img/post/post_9.png";
-import post10 from "../../../public/img/post/post_10.png";
+import single_blog_1 from "../../img/blog/single_blog_1.png";
+import single_blog_2 from "../../img/blog/single_blog_2.png";
+import single_blog_3 from "../../img/blog/single_blog_3.png";
+import single_blog_4 from "../../img/blog/single_blog_4.png";
+import single_blog_5 from "../../img/blog/single_blog_5.png";
+import post1 from "../../img/post/post_1.png";
+import post2 from "../../img/post/post_2.png";
+import post3 from "../../img/post/post_3.png";
+import post4 from "../../img/post/post_4.png";
+import post5 from "../../img/post/post_5.png";
+import post6 from "../../img/post/post_6.png";
+import post7 from "../../img/post/post_7.png";
+import post8 from "../../img/post/post_8.png";
+import post9 from "../../img/post/post_9.png";
+import post10 from "../../img/post/post_10.png";
 
 
 

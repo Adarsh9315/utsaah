@@ -1,9 +1,9 @@
-import cause1 from "../../../../public/img/causes/1.png";
-import cause2 from "../../../../public/img/causes/2.png";
-import cause3 from "../../../../public/img/causes/3.png";
+import cause1 from "../../../img/causes/1.png";
+import cause2 from "../../../img/causes/2.png";
+import cause3 from "../../../img/causes/3.png";
 
-import news1 from "../../../../public/img/news/1.png";
-import news2 from "../../../../public/img/news/2.png";
+import news1 from "../../../img/news/1.png";
+import news2 from "../../../img/news/2.png";
 import Image from "next/image";
 
 
@@ -179,4 +179,61 @@ export const newsAndUpdate = [
       </a>
     </div>
   </div>,
+  <div className="single__blog d-flex align-items-center" key={3}>
+  <div className="thumb">
+    {/* <img src="img/news/2.png" alt="" /> */}
+    <Image src={news2} alt="news2" objectFit="contain" className="w-[1000px]" />
+  </div>
+  <div className="newsinfo">
+    <span>July 18, 2019</span>
+    <a href="single-blog.html">
+      <h3>Pure Water Is More Essential</h3>
+    </a>
+    <p>
+      The passage experienced a surge in popularity during the 1960s when used
+      it on their sheets, and again.
+    </p>
+    <a className="read_more" href="single-blog.html">
+      Read More
+    </a>
+  </div>
+</div>,
+<div className="single__blog d-flex align-items-center" key={4}>
+    <div className="thumb">
+      {/* <img src="img/news/2.png" alt="" /> */}
+      <Image src={news2} alt="news2" objectFit="contain" className="w-[1000px]" />
+    </div>
+    <div className="newsinfo">
+      <span>July 18, 2019</span>
+      <a href="single-blog.html">
+        <h3>Pure Water Is More Essential</h3>
+      </a>
+      <p>
+        The passage experienced a surge in popularity during the 1960s when used
+        it on their sheets, and again.
+      </p>
+      <a className="read_more" href="single-blog.html">
+        Read More
+      </a>
+    </div>
+  </div>,
+  <div className="single__blog d-flex align-items-center" key={5}>
+  <div className="thumb">
+    {/* <img src="img/news/2.png" alt="" /> */}
+    <Image src={news2} alt="news2" objectFit="contain" className="w-[1000px]" />
+  </div>
+  <div className="newsinfo">
+    <span>July 18, 2019</span>
+    <a href="single-blog.html">
+      <h3>Pure Water Is More Essential</h3>
+    </a>
+    <p>
+      The passage experienced a surge in popularity during the 1960s when used
+      it on their sheets, and again.
+    </p>
+    <a className="read_more" href="single-blog.html">
+      Read More
+    </a>
+  </div>
+</div>,
 ];

@@ -21,12 +21,12 @@ const News = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+      </div>
+      <div className="row pl-10 pr-10">
           <div className="col-lg-12">
-            <Carousel slides={newsAndUpdate} options={OPTIONS} slideSize="55%"/>
+            <Carousel slides={newsAndUpdate} options={OPTIONS} />
           </div>
         </div>
-      </div>
     </div>
   );
 };

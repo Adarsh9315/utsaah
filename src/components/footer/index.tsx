@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../../public/img/logo2.png";
-import news1 from "../../../public/img/news/news_1.png";
-import news2 from "../../../public/img/news/news_2.png";
+import logo from "../../img/logo2.png";
+import news1 from "../../img/news/news_1.png";
+import news2 from "../../img/news/news_2.png";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -13,13 +13,11 @@ const Footer = () => {
               <div className="footer_widget">
                 <div className="footer_logo">
                   <a href="#">
-                    {/* <img src="img/footer_logo.png" alt="" /> */}
                     <Image src={logo} alt="logo" objectFit="cover" />
                   </a>
                 </div>
                 <p className="address_text">
-                  Lorem ipsum dolor sit amet, <br /> consectetur adipiscing
-                  elit, sed do <br /> eiusmod tempor incididunt ut labore.
+                Strive constantly to serve the welfare of the world; by devotion to selfless work, one attains the supreme goal of life
                 </p>
                 <div className="socail_links">
                   <ul>
@@ -89,14 +87,13 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col-xl-3 col-md-6 col-lg-3">
+            {/* <div className="col-xl-3 col-md-6 col-lg-3">
               <div className="footer_widget">
                 <h3 className="footer_title">Top News</h3>
                 <ul className="news_links">
                   <li>
                     <div className="thumb">
                       <a href="#">
-                        {/* <img src="img/news/news_1.png" alt=""> */}
                         <Image src={news1} alt="news1" objectFit="cover" />
                       </a>
                     </div>
@@ -110,7 +107,6 @@ const Footer = () => {
                   <li>
                     <div className="thumb">
                       <a href="#">
-                        {/* <img src="img/news/news_2.png" alt=""> */}
                         <Image src={news2} alt="news2" objectFit="cover" />
                       </a>
                     </div>
@@ -123,11 +119,11 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-      <div className="copy-right_text">
+      {/* <div className="copy-right_text">
         <div className="container">
           <div className="row">
             <div className="bordered_1px "></div>
@@ -144,7 +140,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

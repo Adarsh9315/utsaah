@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../../../public/img/banner/man.png";
+import bannerImage from "../../img/banner/man.png";
 const Activities = () => {
   return (
     <div className="latest_activites_area mt-100">

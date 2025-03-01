@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImage from "../../../public/img/banner/banner2.jpg";
+import bannerImage from "../../img/banner/banner2.jpg";
 const Slider = () => {
   return (
     <div className="slider_area">

@@ -20,14 +20,14 @@ const PopularCauses = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+      </div>
+      <div className="row pl-10 pr-10">
           <div className="col-lg-12">
             <div className="causes_active">
               <Carousel slides={popularCauses} options={OPTIONS} />
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

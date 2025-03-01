@@ -1474,7 +1474,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
 /* .slider_bg_1 {
-  background-image: url("../../../public/img/banner/banner2.jpg");
+  background-image: url("../../img/banner/banner2.jpg");
 } */
 
 /* line 4, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_slider.scss */
@@ -2262,6 +2262,8 @@ h3 {
   color: #fff;
   text-transform: capitalize;
   margin-bottom: 35px;
+  background: #3CC78F;
+  padding: 1rem;
 }
 
 @media (max-width: 767px) {
