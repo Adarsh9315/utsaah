@@ -47,8 +47,8 @@ const ContactusTemplate = () => {
                       id="message"
                       cols={30}
                       rows={9}
-                      onFocus={() => (this.placeholder = "")}
-                      onBlur={() => (this.placeholder = "Enter Message")}
+                      onFocus={(e) => (e.target.placeholder = "")}
+                      onBlur={(e) => (e.target.placeholder = "Enter Message")}
                       placeholder="Enter Message"
                     ></textarea>
                   </div>
@@ -60,8 +60,8 @@ const ContactusTemplate = () => {
                       name="name"
                       id="name"
                       type="text"
-                      onFocus={() => (this.placeholder = "")}
-                      onBlur={() => (this.placeholder = "Enter your name")}
+                      onFocus={(e) => (e.target.placeholder = "")}
+                      onBlur={(e) => (e.target.placeholder = "Enter your name")}
                       placeholder="Enter your name"
                     />
                   </div>
@@ -73,8 +73,8 @@ const ContactusTemplate = () => {
                       name="email"
                       id="email"
                       type="email"
-                      onFocus={() => (this.placeholder = "")}
-                      onBlur={() => (this.placeholder = "Enter email address")}
+                      onFocus={(e) => (e.target.placeholder = "")}
+                      onBlur={(e) => (e.target.placeholder = "Enter email address")}
                       placeholder="Enter email address"
                     />
                   </div>
@@ -86,8 +86,8 @@ const ContactusTemplate = () => {
                       name="subject"
                       id="subject"
                       type="text"
-                      onFocus={() => (this.placeholder = "")}
-                      onBlur={() => (this.placeholder = "Enter Subject")}
+                      onFocus={(e) => (e.target.placeholder = "")}
+                      onBlur={(e) => (e.target.placeholder = "Enter Subject")}
                       placeholder="Enter Subject"
                     />
                   </div>
