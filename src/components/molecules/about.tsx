@@ -1,10 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import help1 from "../../img/help/1.png";
-import help6 from "../../img/help/6.jpg";
-import help7 from "../../img/help/7.webp";
-import help8 from "../../img/help/8.webp";
-import help10 from "../../img/help/10.webp";
 const About = () => {
     return (
         <div className="reson_area mt-10">
@@ -25,12 +19,12 @@ const About = () => {
                                 <blockquote className="quote_text">
                                     <p>
                                         <em>
-                                            "Strive constantly to serve the welfare of the world; by devotion to
-                                            selfless work, one attains the supreme goal of life"
+                                            Strive constantly to serve the welfare of the world; by devotion to
+                                            selfless work, one attains the supreme goal of life
                                         </em>
                                     </p>
                                     <footer>
-                                        <strong>– BHAGAVAD GITA</strong>
+                                        <strong>- BHAGAVAD GITA</strong>
                                     </footer>
                                 </blockquote>
                             </div>

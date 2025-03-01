@@ -1,8 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import logo from "../../img/logo2.png";
-import news1 from "../../img/news/news_1.png";
-import news2 from "../../img/news/news_2.png";
 const Footer = () => {
   return (
     <footer className="footer">

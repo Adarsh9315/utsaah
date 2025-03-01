@@ -1,7 +1,7 @@
 import React from 'react'
 import Slider from '../../slider'
 import Reason from '../../molecules/reason'
-import Activities from '../../molecules/activities'
+// import Activities from '../../molecules/activities'
 import PopularCauses from '../../molecules/popularCauses'
 import CounterArea from '@/components/molecules/counterArea'
 import Volunteer from '@/components/molecules/volunteer'

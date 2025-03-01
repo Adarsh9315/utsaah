@@ -36,12 +36,12 @@ const AboutTemplate = () => {
                   <blockquote className="quote_text">
                     <p>
                       <em>
-                        "Strive constantly to serve the welfare of the world; by devotion to
-                        selfless work, one attains the supreme goal of life"
+                        Strive constantly to serve the welfare of the world; by devotion to
+                        selfless work, one attains the supreme goal of life
                       </em>
                     </p>
                     <footer>
-                      <strong>– BHAGAVAD GITA</strong>
+                      <strong>- BHAGAVAD GITA</strong>
                     </footer>
                   </blockquote>
                 </div>

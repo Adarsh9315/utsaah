@@ -2,6 +2,7 @@
 
 import React from "react";
 import bannerImage from "../../img/banner/banner2.jpg";
+import Image from "next/image";
 
 interface ThankYouPopupProps {
   show: boolean;
@@ -17,7 +18,7 @@ const ThankYouPopup: React.FC<ThankYouPopupProps> = ({ show, onClose }) => {
         <button className="close-btn" onClick={onClose}>
           ✖
         </button>
-        <img src={bannerImage.src} alt="Thank You" className="thank-you-image" />
+        <Image src={bannerImage.src} alt="Thank You" className="thank-you-image" />
         <h2>Thank You for Your Donation!</h2>
         <p>Your generosity is greatly appreciated. 🙇 🙏</p>
       </div>
